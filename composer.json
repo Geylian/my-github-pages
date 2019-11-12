@@ -1,0 +1,20 @@
+{
+    "name": "geylian/my-github-pages",
+    "description": "Webpage that lists all my github projects",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geylian lingier",
+            "email": "geylian.l@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "geylian/html-library":"master"
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:vives-web-applications-2019/html-library-Geylian.git"
+    }]
+}

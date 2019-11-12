@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "32ff7e4503d39a126ae3b36ce9549b7a",
+    "packages": [
+        {
+            "name": "geylian/html-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:vives-web-applications-2019/html-library-Geylian.git",
+                "reference": "4fb709e8e6f52d481a63c263912fbc67c6f59e2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vives-web-applications-2019/html-library-Geylian/zipball/4fb709e8e6f52d481a63c263912fbc67c6f59e2f",
+                "reference": "4fb709e8e6f52d481a63c263912fbc67c6f59e2f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "geylian\\": "lib/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Geylian lingier",
+                    "email": "geylian.l@gmail.com"
+                }
+            ],
+            "description": "My first html library",
+            "support": {
+                "source": "https://github.com/vives-web-applications-2019/html-library-Geylian/tree/master",
+                "issues": "https://github.com/vives-web-applications-2019/html-library-Geylian/issues"
+            },
+            "time": "2019-11-05T09:15:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
