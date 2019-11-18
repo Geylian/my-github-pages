@@ -11,10 +11,17 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "geylian/html-library":"master"
+        "geylian/html-library":"master",
+        "php-curl-class/php-curl-class": "dev-master",
+        "vlucas/phpdotenv": "^4.0@dev"
     },
     "repositories": [{
         "type": "vcs",
         "url": "git@github.com:vives-web-applications-2019/html-library-Geylian.git"
-    }]
+    }],
+    "autoload": {
+        "psr-4": {
+            "geylian\\": "src/"
+        }
+    }
 }
